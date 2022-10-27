@@ -1,0 +1,66 @@
+body{
+    background-image: url(./img/julia-ivanina-7IWdMf0p2gA-unsplash.jpg);
+    background-repeat: cover ;
+    background-size: 100%;
+}
+
+.projectName{
+    font-family: 'Times New Roman, Times, serif';
+    font-size: 45px;
+    color: #538a6a;
+    text-shadow: px 1px 3px rgb(144, 138, 138);
+    text-align: center;
+}
+
+.mainBlock{
+    width: 550px;
+    margin: 0 auto;
+    background-color: #538a6a;
+    padding: 20px;
+    opacity: 0.9px;
+    box-shadow: 0 0 30px rgb(0, 0, 0.5);
+}
+
+.input{
+    width: 300px;
+    height: 22px;
+    margin: 5px;
+    outline: none;
+}
+
+.inputDate{
+    width: 100px;
+    height: 22px;
+    margin: 5px;
+    outline: none;
+}
+
+#button{
+    width: 100px;
+    height: 25px;
+    margin: 5px;
+    
+}
+.createTodoItemBlock{
+    list-style: none;
+}
+
+.createTodoItemBlock img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.mainBlock div{
+    display: grid;
+    grid-template-columns: 5fr 0.3fr 0.3fr;
+    grid-column-gap: 5px;
+}
+.taskItem-done{
+    text-decoration: line-through;
+}
+
+.taskItem{
+    text-decoration: none;
+}
